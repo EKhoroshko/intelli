@@ -736,13 +736,13 @@ template {
     padding: 20px;
     margin: 0px;
   }
-  .profesional__dutes__item {
+  .profesional__dutes--item {
     color: #ff6b08;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
   }
-  .profesional__dutes__text {
+  .profesional__dutes--text {
     color: #000000;
   }
 
