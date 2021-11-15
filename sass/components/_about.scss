@@ -1,0 +1,365 @@
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+  .about-me {
+    padding: 80px;
+
+    &__professional {
+      color: #000000;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+
+    &__btn {
+      display: none;
+    }
+
+    &__name {
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 89px;
+      color: #000000;
+    }
+
+    &__foto {
+      display: none;
+    }
+
+    &__discrition {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-top: 24px;
+    }
+
+    &__info {
+      margin-bottom: 65px;
+    }
+  }
+
+  .prodjects {
+    margin-bottom: 55px;
+
+    &__title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+
+    &__link {
+      color: #000000;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    &__description {
+      color: #000000;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    &__item {
+      font-weight: 700;
+      margin-left: 17px;
+    }
+  }
+
+  .profesional {
+    margin-bottom: 55px;
+
+    &__title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+
+    &__rank {
+      color: #000000;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+
+    &__compani {
+      color: #ff6b08;
+    }
+
+    &__time-work {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    &__divainer {
+      color: black;
+    }
+
+    &__dutes {
+      margin-top: 14px;
+      margin-bottom: 30px;
+      margin-left: 15px;
+
+      &__item {
+        color: #ff6b08;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+
+      &__text {
+        color: #000000;
+      }
+    }
+  }
+
+  .education {
+    &__title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+
+    &__stady {
+      margin-bottom: 10px;
+    }
+
+    &__first {
+      color: #ff6b08;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+
+    &__specialty {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-top: 14px;
+      margin-bottom: 14px;
+    }
+
+    &__time-work {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-me {
+    padding: 10px;
+    max-width: 440px;
+    margin: 0 auto;
+
+    &__professional {
+      margin-bottom: 23px;
+      color: #000000;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+
+    &__box {
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    &__btn {
+      right: 15px;
+      z-index: 5;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin: 0;
+      padding: 12px 8px;
+      border: none;
+      background-color: transparent;
+      fill: black;
+
+      &:hover,
+      &:focus {
+        fill: #ff6b08;
+      }
+
+      & .icon-close {
+        right: 15px;
+        display: none;
+        width: 19px;
+        height: 19px;
+      }
+      &.is-open {
+        position: fixed;
+      }
+
+      &.is-open .icon-close {
+        display: block;
+      }
+
+      &.is-open .icon-menu {
+        display: none;
+        width: 24px;
+        height: 16px;
+      }
+    }
+
+    &__foto {
+      display: block;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &__name {
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 89px;
+      color: #000000;
+    }
+
+    &__discrition {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-top: 24px;
+    }
+
+    &__info {
+      margin-bottom: 65px;
+    }
+  }
+
+  .prodjects {
+    margin-bottom: 55px;
+
+    &__title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+
+    &__list {
+      padding: 0px;
+    }
+
+    &__link {
+      color: #000000;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    &__description {
+      color: #000000;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    &__item {
+      font-weight: 700;
+      margin-left: 17px;
+    }
+  }
+
+  .profesional {
+    margin-bottom: 55px;
+
+    &__title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+
+    &__rank {
+      color: #000000;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+
+    &__compani {
+      color: #ff6b08;
+    }
+
+    &__time-work {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    &__divainer {
+      color: black;
+    }
+
+    &__dutes {
+      padding: 20px;
+      margin-top: 14px;
+      margin-bottom: 30px;
+
+      &__item {
+        color: #ff6b08;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+
+      &__text {
+        color: #000000;
+      }
+    }
+  }
+
+  .education {
+    &__title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+
+    &__stady {
+      margin-bottom: 10px;
+    }
+
+    &__first {
+      color: #ff6b08;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+
+    &__specialty {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-top: 14px;
+      margin-bottom: 14px;
+    }
+
+    &__time-work {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+}

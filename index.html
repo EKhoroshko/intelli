@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cv Evgeny Khoroshko</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./sass/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
@@ -16,23 +16,22 @@
     <div class="wrapper">
       <aside class="sidebar">
         <img class="my-foto" src="./img/photo2.jpg" alt="My foto" />
-
         <div class="contacts">
           <!-- Contacts conteiner -->
-          <h3 class="contacts-title">Contacts</h3>
+          <h3 class="contacts__title">Contacts</h3>
           <div>
-            <a class="contacts-link" href="tel:380930725966"
+            <a class="contacts__link" href="tel:380930725966"
               >+38 093 07 25 966</a
             >
           </div>
           <div>
-            <a class="contacts-link" href="mailto:xapoxa14@gmail.com"
+            <a class="contacts__link" href="mailto:xapoxa14@gmail.com"
               >xapoxa14@gmail.com</a
             >
           </div>
           <div>
             <a
-              class="contacts-link"
+              class="contacts__link"
               target="_blank"
               href="https://www.linkedin.com/in/%D0%B5%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9-%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%BA%D0%BE-4826b4166/"
               >https://www.linkedin.com/in/</a
@@ -40,76 +39,76 @@
           </div>
           <div>
             <a
-              class="contacts-link"
+              class="contacts__link"
               target="_blank"
               href="https://github.com/EKhoroshko"
               >GitHub</a
             >
           </div>
           <div>
-            <span class="contacts-text">Odessa, Ukraine</span>
+            <span class="contacts__text">Odessa, Ukraine</span>
           </div>
         </div>
 
-        <div class="tech-skills-conteiner">
+        <div class="tech-skills">
           <!-- Tech Skils conteiner -->
-          <h3 class="tech-skils-title">Tech Skills</h3>
+          <h3 class="tech-skills__title">Tech Skills</h3>
           <ul>
-            <li class="tech-skills-items">
-              <span class="tech-skills-text">HTML5</span>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">HTML5</span>
             </li>
-            <li class="tech-skills-items">
-              <span class="tech-skills-text">CSS3</span>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">CSS3</span>
             </li>
-            <li class="tech-skills-items">
-              <span class="tech-skills-text">SASS</span>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">SASS</span>
             </li>
-            <li class="tech-skills-items">
-              <span class="tech-skills-text">GIT</span>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">GIT</span>
             </li>
-            <li class="tech-skills-items">
-              <span class="tech-skills-text">JavaScript</span>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">JavaScript</span>
             </li>
-            <li class="tech-skills-items">
-              <span class="tech-skills-text">React.js</span>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">React.js</span>
             </li>
-            <li class="tech-skills-items">
-              <span class="tech-skills-text">Redux</span>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">Redux</span>
             </li>
-            <li class="tech-skills-items">
-              <span class="tech-skills-text">Node.js</span>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">Node.js</span>
             </li>
           </ul>
         </div>
 
-        <div class="soft-skills-conteiner">
+        <div class="soft-skills">
           <!-- Soft Skills conteiner -->
-          <h3 class="soft-skills-title">Soft Skills</h3>
+          <h3 class="soft-skills__title">Soft Skills</h3>
           <ul>
-            <li class="soft-skills-items">
-              <span class="soft-skills-text">Teamwork</span>
+            <li class="soft-skills__items">
+              <span class="soft-skills__text">Teamwork</span>
             </li>
-            <li class="soft-skills-items">
-              <span class="soft-skills-text">Good communication</span>
+            <li class="soft-skills__items">
+              <span class="soft-skills__text">Good communication</span>
             </li>
-            <li class="soft-skills-items">
-              <span class="soft-skills-text">Growth-oriented</span>
+            <li class="soft-skills__items">
+              <span class="soft-skills__text">Growth-oriented</span>
             </li>
           </ul>
         </div>
 
-        <div class="lang-skills-conteiner">
+        <div class="lang-skills">
           <!-- Language Skills conteiner -->
-          <h3 class="lang-skills-title">Language Skills</h3>
+          <h3 class="lang-skills__title">Language Skills</h3>
           <ul>
-            <li class="lang-skills-items">
-              <p class="lang-skills-text">Ukraine: <span>Advanced</span></p>
+            <li class="lang-skills__items">
+              <p class="lang-skills__text">Ukraine: <span>Advanced</span></p>
             </li>
-            <li class="lang-skills-items">
-              <p class="lang-skills-text">Russian: <span>Advanced</span></p>
+            <li class="lang-skills__items">
+              <p class="lang-skills__text">Russian: <span>Advanced</span></p>
             </li>
-            <li class="lang-skills-items">
-              <p class="lang-skills-text">
+            <li class="lang-skills__items">
+              <p class="lang-skills__text">
                 English: <span>Pre-intermediate</span>
               </p>
             </li>
@@ -118,12 +117,28 @@
       </aside>
 
       <!-- about me conteiner -->
-      <div class="about-me-conteiner">
+      <div class="about-me">
         <!-- about me main conteiner -->
-        <div class="info-conteiner">
-          <h2 class="professional">Front-End Developer</h2>
-          <h1 class="name">Evgeny Khoroshko</h1>
-          <p class="discrition"> 
+        <div class="about-me__info">
+          <div class="about-me__box">
+              <h2 class="about-me__professional">Front-End Developer</h2>
+            <button
+            class="about-me__btn"
+            type="button"
+          >
+           <svg
+              width="24"
+              height="16"
+              aria-label="переключатель мобильного меню"
+            >
+              <use class="icon-close" href="./img/sprite.svg#close"></use>
+              <use class="icon-menu" href="./img/sprite.svg#icon-menu"></use>
+            </svg>
+          </button>
+          </div>
+          <img class="about-me__foto" src="./img/photo2.jpg" alt="My foto" />
+          <h1 class="about-me__name">Evgeny Khoroshko</h1>
+          <p class="about-me__discrition"> 
               I am now at the beginning of my journey as a Front-End developer and am 
               looking for a full-time job where I can continue to develop and improve my skills.
                Over the past year, I have mastered and well versed in JavaScript and React. 
@@ -131,89 +146,89 @@
           </p>
         </div>
         <!-- projects conteiner -->
-        <div class="prodjects-conteiner">
-          <h3 class="about-me-title">Projects experience</h3>
-          <ol>
-            <li class="prodjects-item">
+        <div class="prodjects">
+          <h3 class="prodjects__title">Projects experience</h3>
+          <ol class="prodjects__list">
+            <li class="prodjects__item">
               <a
-                class="prodjects-link"
+                class="prodjects__link"
                 target="_blank"
                 href="https://quizzical-perlman-a2a0f2.netlify.app/"
                 >Pokemon game</a
               >&nbsp;
               <a
-                class="prodjects-link"
+                class="prodjects__link"
                 target="_blank"
                 href="https://github.com/EKhoroshko/pokemon-game"
                 >Link to GitHub
               </a>
-              <p class="project-description">
+              <p class="prodjects__description">
                 <span>Technologies:</span> React.js, Redux, Firebase, REST API
               </p>
-              <p class="project-description">Browser card game that will make you wonder where to put the card on the table</p>
+              <p class="prodjects__description">Browser card game that will make you wonder where to put the card on the table</p>
             </li>
 
-            <li class="prodjects-item">
+            <li class="prodjects__item">
               <a
-                class="prodjects-link"
+                class="prodjects__link"
                 target="_blank"
                 href="https://ekhoroshko.github.io/Js-fullgroup-project/"
                 >Filmoteka</a
               >&nbsp;
               <a
-                class="prodjects-link"
+                class="prodjects__link"
                 target="_blank"
                 href="https://github.com/EKhoroshko/Js-fullgroup-project"
                 >Link to GitHub
               </a>
-              <p class="project-description">
+              <p class="prodjects__description">
                 <span>Technologies:</span> JavaScript, REST API, Handlebars,
                 HTML, SASS, Parcel
               </p>
-               <p class="project-description">SPA for movie search</p>
-              <p class="project-description">
+               <p class="prodjects__description">SPA for movie search</p>
+              <p class="prodjects__description">
                 <span>Role:</span> Teamlead, Developer
               </p>
             </li>
 
-            <li class="prodjects-item">
+            <li class="prodjects__item">
               <a
-                class="prodjects-link"
+                class="prodjects__link"
                 target="_blank"
                 href="https://ekhoroshko.github.io/MortalCombat/"
                 >Mortal Kombat</a
               >&nbsp;
               <a
-                class="prodjects-link"
+                class="prodjects__link"
                 target="_blank"
                 href="https://github.com/EKhoroshko/MortalCombat"
                 >Link to GitHub
               </a>
-              <p class="project-description">
+              <p class="prodjects__description">
                 <span>Technologies:</span> JavaScript
               </p>
-              <p class="project-description">Browser game, fight club with your favorite heroes from Mortal Kombat</p>
+              <p class="prodjects__description">Browser game, fight club with your favorite heroes from Mortal Kombat</p>
             </li>
 
-            <li class="prodjects-item">
+            <li class="prodjects__item">
               <a
-                class="prodjects-link"
+                class="prodjects__link"
                 target="_blank"
                 href="https://ekhoroshko.github.io/parcel-project-template/"
                 >IceCream </a
               >&nbsp;
               <a
-                class="prodjects-link"
+                class="prodjects__link"
                 target="_blank"
                 href="https://github.com/EKhoroshko/parcel-project-template"
                 >Link to GitHub
               </a>
-              <p class="project-description">
+              <p class="prodjects__description">
                 <span>Technologies:</span> HTML5, CSS3, SASS, Adaptive-Responce
                 markup
               </p>
-              <p class="project-description">Responsive website</p>
-              <p class="project-description">
+              <p class="prodjects__description">Responsive website</p>
+              <p class="prodjects__description">
                 <span>Role:</span> Teamlead, Developer
               </p>
             </li>
@@ -222,68 +237,174 @@
 
         <!-- Work Experience conteiner -->
         <div>
-          <h3 class="about-me-title">Work Experience</h3>
           <!-- company 1 -->
-          <div class="profesional-container">
-            <h4 class="profesion-title">
+          <div class="profesional">
+            <h3 class="profesional__title">Work Experience</h3>
+            <h4 class="profesional__rank">
               Plumber
-              <span class="profedional-compani">Odeskabel</span>
+              <span class="profesional__compani">Odeskabel</span>
             </h4>
-            <span class="time-work"
+            <span class="profesional__time-work"
               >December 2018 - up to now
-              <span class="prof-divainer">|</span> Ukraine</span
+              <span class="profesional__divainer">|</span> Ukraine</span
             >
-            <ul class="prof-dutes">
-              <li class="prof-dutes-item">
-                <span class="prof-dutes-text">Responsible attitude to the fulfillment of assigned tasks</span>
+            <ul class="profesional__dutes">
+              <li class="profesional__dutes-item">
+                <span class="profesional__dutes-dutes-text">Responsible attitude to the fulfillment of assigned tasks</span>
               </li>
-              <li class="prof-dutes-item">
-                <span class="prof-dutes-text">Keep in touch between different technical services</span>
+              <li class="profesional__dutes-dutes-item">
+                <span class="profesional__dutes-dutes-text">Keep in touch between different technical services</span>
               </li>
-              <li class="prof-dutes-item"><span class="prof-dutes-text">Mutual assistance</span></li>
+              <li class="profesional__dutes-dutes-item"><span class="profesional__dutes-dutes-text">Mutual assistance</span></li>
             </ul>
           </div>
 
            <!-- company 2 -->
-          <div class="profesional-container">
-            <h4 class="profesion-title">
+          <div class="profesional">
+            <h4 class="profesional__rank">
               Front-End Developer
-              <span class="profedional-compani">Front-end Internship at Hillel IT School</span>
+              <span class="profesional__compani">Front-end Internship at Hillel IT School</span>
             </h4>
-            <span class="time-work"
+            <span class="profesional__time-work"
               >July 2021 - September 2021
-              <span class="prof-divainer">|</span> Ukraine</span
+              <span class="profesional__divainer">|</span> Ukraine</span
             >
-            <ul class="prof-dutes">
-              <li class="prof-dutes-item">
-                <span class="prof-dutes-text">Got acquainted with the new Angular framework</span>
+            <ul class="profesional__dutes">
+              <li class="profesional-dutes__item">
+                <span class="profesional-dutes__text">Got acquainted with the new Angular framework</span>
               </li>
-              <li class="prof-dutes-item">
-                <span class="prof-dutes-text">Participated in the development of a live product</span>
+              <li class="profesional-dutes__item">
+                <span class="profesional-dutes__text">Participated in the development of a live product</span>
               </li>
-              <li class="prof-dutes-item"><span class="prof-dutes-text">Faced teamwork on a real project</span></li>
+              <li class="profesional-dutes__item"><span class="profesional-dutes__text">Faced teamwork on a real project</span></li>
             </ul>
           </div>
-        <div>
-
+        
+          <div class="education">
           <!-- Education -->
-          <h3 class="education-title">Education</h3>
-          <div class="education-stady">
-            <h4 class="education1">GoIT Academy</h4>
-            <h4 class="specialty">Full-stack developer JavaScript</h4>
-            <span class="time-work">December 2020 - up to now | Ukraine</span>
+          <h3 class="education__title">Education</h3>
+          <div class="education__stady">
+            <h4 class="education__first">GoIT Academy</h4>
+            <h4 class="education__specialty">Full-stack developer JavaScript</h4>
+            <span class="education__time-work">December 2020 - up to now | Ukraine</span>
           </div>
-          <div class="education-stady">
-            <h4 class="education1">
+          <div class="education__stady">
+            <h4 class="education__first">
               The Odessa State Academy of Refrigeration
             </h4>
-            <h4 class="specialty">Power engineering</h4>
-            <span class="time-work"
-              >September 2007 - February 2012 | Ukraine</span
-            >
+            <h4 class="education__specialty">Power engineering</h4>
+            <span class="education__time-work"
+              >September 2007 - February 2012 | Ukraine</span>
           </div>
         </div>
       </div>
     </div>
+
+
+    <div class="mobile-menu is-hidden">
+       <div class="menu-conteiner">
+        <div class="contacts">
+          <!-- Contacts conteiner -->
+          <h3 class="contacts__title">Contacts</h3>
+          <ul class="contacts__list">
+            <li>
+              <a class="contacts__link" href="tel:380930725966"
+              >+38 093 07 25 966</a
+            >
+            </li>
+            <li>
+              <a class="contacts__link" href="mailto:xapoxa14@gmail.com"
+              >xapoxa14@gmail.com</a
+            >
+            </li>
+            <li>
+               <a
+              class="contacts__link"
+              target="_blank"
+              href="https://www.linkedin.com/in/%D0%B5%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9-%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%BA%D0%BE-4826b4166/"
+              >https://www.linkedin.com/in/</a
+            >
+            </li>
+            <li>
+                 <a
+              class="contacts__link"
+              target="_blank"
+              href="https://github.com/EKhoroshko"
+              >GitHub</a
+            >
+            </li>
+            <li>
+              <span class="contacts__text">Odessa, Ukraine</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tech-skills">
+          <!-- Tech Skils conteiner -->
+          <h3 class="tech-skills__title">Tech Skills</h3>
+          <ul class="tech-skills__list">
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">HTML5</span>
+            </li>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">CSS3</span>
+            </li>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">SASS</span>
+            </li>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">GIT</span>
+            </li>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">JavaScript</span>
+            </li>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">React.js</span>
+            </li>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">Redux</span>
+            </li>
+            <li class="tech-skills__items">
+              <span class="tech-skills__text">Node.js</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="soft-skills">
+          <!-- Soft Skills conteiner -->
+          <h3 class="soft-skills__title">Soft Skills</h3>
+          <ul class="soft-skills__list">
+            <li class="soft-skills__items">
+              <span class="soft-skills__text">Teamwork</span>
+            </li>
+            <li class="soft-skills__items">
+              <span class="soft-skills__text">Good communication</span>
+            </li>
+            <li class="soft-skills__items">
+              <span class="soft-skills__text">Growth-oriented</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="lang-skills">
+          <!-- Language Skills conteiner -->
+          <h3 class="lang-skills__title">Language Skills</h3>
+          <ul class="lang-skills__list">
+            <li class="lang-skills__items">
+              <p class="lang-skills__text">Ukraine: <span>Advanced</span></p>
+            </li>
+            <li class="lang-skills__items">
+              <p class="lang-skills__text">Russian: <span>Advanced</span></p>
+            </li>
+            <li class="lang-skills__items">
+              <p class="lang-skills__text">
+                English: <span>Pre-intermediate</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
   </body>
 </html>
